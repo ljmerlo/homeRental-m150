@@ -10,15 +10,15 @@ const AboutCard = props => {
                 <Row>
                     <Col className="bigScreen" xs={12} sm={12} md={12} lg={8} xl={8}>
                         <Card style={{ height: '100%' }} >
-                            <Card.Header>{props.name}</Card.Header>
+                            <Card.Header>{props.home.name}</Card.Header>
                             <Card.Body>
-                                <Card.Title>{props.name}</Card.Title>
+                                <Card.Title>{props.home.name}</Card.Title>
                                 <Card.Text>
-                                    {props.rooms} <br /> {props.balcony} <br /> {props.surroundings} <br />
+                                    {props.home.rooms} <br /> {props.home.extras} <br /> {props.home.surroundings} <br />
                                 </Card.Text>
                                 <Card.Text>
                                     <br />
-                                    Contact: <a href={`mailto:${props.contact}`}>{props.contact}</a>
+                                    Contact: <a href={`mailto:${props.home.contact}`}>{props.home.contact}</a>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -27,7 +27,7 @@ const AboutCard = props => {
                         <Card style={{ height: '100%' }}>
                             <Card.Header>Image</Card.Header>
                             <Card.Body>
-                                <img src={props.imageLink} alt={props.imageLink} width="100%" height="100%" className="noPadding" />
+                                <img src={props.home.image} alt={props.home.image} width="100%" height="100%" className="noPadding" />
                             </Card.Body>
                         </Card>
                     </Col>

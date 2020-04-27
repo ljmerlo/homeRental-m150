@@ -7,7 +7,6 @@ import {
 import ContentNavbar from './contentNavbar';
 import Home from './pages/home';
 import Rentals from './pages/rentals';
-// import Account from './pages/account';
 import '../css/default.css';
 
 class app extends React.Component {
@@ -19,7 +18,6 @@ class app extends React.Component {
                     <Switch>
                         <Route path="/" exact component={Home} />
                         <Route path="/rentals" component={Rentals} />
-                        {/* <Route path="/account" component={Account} /> */}
                     </Switch>
                 </Router>
                 <footer className='main-footer'>
