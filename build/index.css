@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+}
+
+body {
+    background-color: transparent;
+}
+
+html { 
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/jona-m152.appspot.com/o/background%2Fanton-darius-thesollers-282891-unsplash.jpg?alt=media&token=0ee006c6-ff2e-4e98-adaf-c5cfca622f3b'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /*background: linear-gradient(301deg, #7d252c, #445d92, #ae0505);
+  background-size: 600% 600%;
+
+  -webkit-animation: BackgroundColors 41s ease infinite;
+  -moz-animation: BackgroundColors 41s ease infinite;
+  -o-animation: BackgroundColors 41s ease infinite;
+  animation: BackgroundColors 41s ease infinite;
+}
+
+@-webkit-keyframes BackgroundColors {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes BackgroundColors {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-o-keyframes BackgroundColors {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes BackgroundColors { 
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}*/
+}
