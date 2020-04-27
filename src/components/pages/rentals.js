@@ -15,6 +15,8 @@ const Content = () => {
             <br />
             <HomeCard name={'Nice apartment in Bern'} rooms={'1 Bedrooms, 1 Kitchen, 1 Toilets'} balcony={'Balcony available'} surroundings={'Bundeshaus reachable in 10'} contact={'timon.tom@gmail.com'} imageLink={'https://www.ums.ch/media/images/offers/2a/2ae1630368_offer_list.jpg'} />
             <br />
+            <HomeCard name={'Nice villa in Paris'} rooms={'5 Bedrooms, 2 Kitchen, 6 Toilets'} balcony={'Balcony and Pool available'} surroundings={'Eiffeltower reachable in 15'} contact={'baguette.jenecomprendspas@gmx.fr'} imageLink={'https://palmerablue.com/data/img/img5dc188cf679d3f.jpg'} />
+            <br />
         </div>
     );
 }
