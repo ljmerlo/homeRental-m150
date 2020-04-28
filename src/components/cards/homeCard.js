@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
+import Paypal from '../paypal';
 import '../../css/default.css';
 
 const AboutCard = props => {
@@ -17,8 +18,7 @@ const AboutCard = props => {
                                     {props.home.rooms} <br /> {props.home.extras} <br /> {props.home.surroundings} <br />
                                 </Card.Text>
                                 <Card.Text>
-                                    <br />
-                                    Contact: <a href={`mailto:${props.home.contact}`}>{props.home.contact}</a>
+                                    Contact: <a href={`mailto:${props.home.contact}`}>{props.home.contact}</a> <Paypal total={props.home.cost} />
                                 </Card.Text>
                             </Card.Body>
                         </Card>

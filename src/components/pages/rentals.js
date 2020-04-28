@@ -10,6 +10,7 @@ const Homes = [
         surroundings: 'Lake Zurich reachable in 5',
         contact: 'tim.larry@gmx.ch',
         image: 'https://q-cf.bstatic.com/images/hotel/max1024x768/729/72965530.jpg',
+        cost: 200.00
     },
     {
         name: 'Nice apartment in Geneva',
@@ -18,6 +19,7 @@ const Homes = [
         surroundings: 'Lake Geneva reachable in 5',
         contact: 'thomas.vogel@gmail.ch',
         image: 'https://pea-7f65.kxcdn.com/img/image_db/luxury_hotel_the_residence_living_area-942.jpg',
+        cost: 100.00
     },
     {
         name: 'Nice apartment in Bern',
@@ -26,6 +28,7 @@ const Homes = [
         surroundings: 'Bundeshaus reachable in 10',
         contact: 'timon.tom@gmail.com',
         image: 'https://www.ums.ch/media/images/offers/2a/2ae1630368_offer_list.jpg',
+        cost: 300.00
     },
     {
         name: 'Nice villa in Paris',
@@ -34,6 +37,7 @@ const Homes = [
         surroundings: 'Eiffeltower reachable in 15',
         contact: 'timophy.tupas@gmx.fr',
         image: 'https://palmerablue.com/data/img/img5dc188cf679d3f.jpg',
+        cost: 600.00
     }
 ];
 
